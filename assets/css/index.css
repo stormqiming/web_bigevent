@@ -21,6 +21,10 @@ iframe {
     overflow: hidden;
 }
 
+.a {
+    transition: none !important;
+}
+
 .userinfo {
     height: 60px;
     line-height: 60px;
@@ -42,11 +46,12 @@ iframe {
     display: inline-block;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    background-color: #009688;
     border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
     font-size: 20px;
     color: #fff;
-    background-color: #009688;
     position: relative;
     top: 4px;
     margin-right: 10px;
